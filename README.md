@@ -6,10 +6,18 @@ Desenvolvido em **C# com Windows Forms**.
 
 ## 📸 Screenshots
 
-<!-- Coloque suas imagens na pasta /screenshots e referencie aqui -->
-![Tela principal](screenshots/Menu.png)
-![Combate](screenshots/Sistema_equipamentos.png)
-[![Assista no YouTube](https://img.youtube.com/vi/bKyTffIF03A/maxresdefault.jpg)](https://www.youtube.com/watch?v=bKyTffIF03A)
+<p align="center">
+  <img src="screenshots/Menu.png" width="45%" alt="Tela principal" />
+  <img src="screenshots/Sistema_equipamentos.png" width="45%" alt="Sistema de equipamentos" />
+</p>
+
+## 🎥 Vídeo
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=bKyTffIF03A">
+    <img src="https://img.youtube.com/vi/bKyTffIF03A/maxresdefault.jpg" width="480" alt="Assista no YouTube" />
+  </a>
+</p>
 
 ## 🎮 Como jogar
 
