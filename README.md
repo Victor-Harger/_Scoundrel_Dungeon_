@@ -67,7 +67,7 @@ Ainda assim, a intenção não é transformar o Scoundrel Dungeon em um projeto 
 
 1. Clone o repositório:
 ```bash
-   git clone https://github.com/Victor-Harger/Scoundrel-Dungeon.git
+   git clone https://github.com/Victor-Harger/_Scoundrel_Dungeon_.git
 ```
 2. Abra o arquivo `.sln` no Visual Studio
 3. Compile e execute (F5)
