@@ -7,9 +7,9 @@ Desenvolvido em **C# com Windows Forms**.
 ## 📸 Screenshots
 
 <!-- Coloque suas imagens na pasta /screenshots e referencie aqui -->
-![Tela principal](screenshots/tela-principal.png)
-![Combate](screenshots/combate.png)
-![Painel de equipamento](screenshots/equipamento.png)
+![Tela principal](screenshots/Menu.png)
+![Combate](screenshots/SistemaEquipamentos.png)
+[![Assista no YouTube](https://img.youtube.com/vi/bKyTffIF03A/maxresdefault.jpg)](https://www.youtube.com/watch?v=bKyTffIF03A)
 
 ## 🎮 Como jogar
 
