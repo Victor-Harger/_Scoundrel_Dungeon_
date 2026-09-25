@@ -4,6 +4,16 @@ Um jogo de cartas roguelike inspirado no clássico **Scoundrel**, reimaginado co
 
 Desenvolvido em **C# com Windows Forms**.
 
+## 💡 Sobre o projeto
+
+Neste projeto, me desafiei a criar um dos meus primeiros jogos utilizando C# e Windows Forms. Na época, meu principal objetivo era aprender na prática e conseguir levar o projeto até o fim, então optei por manter a implementação simples, sem me preocupar excessivamente com arquitetura, padrões de projeto ou com todas as boas práticas que hoje eu considero importantes.
+
+O projeto foi desenvolvido durante meu primeiro semestre da faculdade, quando minha experiência com programação ainda era bastante limitada. Durante o desenvolvimento, encontrei algumas dificuldades que estavam além do meu nível de conhecimento naquele momento, principalmente ao trabalhar com recursos como áudio, gerenciamento de arquivos e recursos, eventos da interface e diferentes bibliotecas e imports.
+
+Agora, no 3º semestre, tenho uma compreensão muito maior de conceitos como Programação Orientada a Objetos, encapsulamento, abstração, estruturas de dados, separação de responsabilidades, gerenciamento de estado e arquitetura de aplicações. Por isso, decidi continuar evoluindo o projeto, refatorando partes do código e implementando algumas das ideias e funcionalidades que surgiram desde sua criação.
+
+Ainda assim, a intenção não é transformar o Scoundrel Dungeon em um projeto enorme. Quero mantê-lo relativamente pequeno, como um registro da minha evolução e uma lembrança de uma das primeiras etapas da minha trajetória como desenvolvedor.
+
 ## 📸 Screenshots
 
 <p align="center">
@@ -46,12 +56,10 @@ Desenvolvido em **C# com Windows Forms**.
 ## 🚧 Roadmap
 
 - [ ] Refatorar arquitetura para Orientação a Objetos (separar regras de jogo da interface)
-- [ ] Substituir imagens placeholder por pixel art
-- [ ] Melhoria de trilha sonora e efeitos de áudio
+- [ ] Substituir imagens placeholder por pixel art autoral das criaturas
 - [ ] Adicionar painel de dicas
 - [ ] Adicionar painel de "Como jogar"
-- [ ] Novos tipos de sala
-- [ ] Novos eventos e bosses nas cartas de valor alto
+- [ ] Novos tipos de sala/eventos de dungeon
 
 ## ▶️ Como rodar
 
