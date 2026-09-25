@@ -56,10 +56,12 @@ Ainda assim, a intenção não é transformar o Scoundrel Dungeon em um projeto 
 ## 🚧 Roadmap
 
 - [ ] Refatorar arquitetura para Orientação a Objetos (separar regras de jogo da interface)
-- [ ] Substituir imagens placeholder por pixel art autoral das criaturas
+- [ ] Substituir imagens placeholder por pixel art
+- [ ] Aprimorar os efeitos sonoros e artes visuais em geral do projeto
 - [ ] Adicionar painel de dicas
 - [ ] Adicionar painel de "Como jogar"
-- [ ] Novos tipos de sala/eventos de dungeon
+- [ ] Novos tipos de sala
+- [ ] Novos Bosses como cartas de valor alto
 
 ## ▶️ Como rodar
 
@@ -69,7 +71,3 @@ Ainda assim, a intenção não é transformar o Scoundrel Dungeon em um projeto 
 ```
 2. Abra o arquivo `.sln` no Visual Studio
 3. Compile e execute (F5)
-
-## 📄 Licença
-
-<!-- Escolha uma licença se quiser (MIT é comum para projetos pessoais) -->
