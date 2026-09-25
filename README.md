@@ -46,10 +46,12 @@ Desenvolvido em **C# com Windows Forms**.
 ## 🚧 Roadmap
 
 - [ ] Refatorar arquitetura para Orientação a Objetos (separar regras de jogo da interface)
-- [ ] Substituir imagens placeholder por pixel art autoral das criaturas
+- [ ] Substituir imagens placeholder por pixel art
+- [ ] Melhoria de trilha sonora e efeitos de áudio
 - [ ] Adicionar painel de dicas
 - [ ] Adicionar painel de "Como jogar"
-- [ ] Novos tipos de sala/eventos de dungeon
+- [ ] Novos tipos de sala
+- [ ] Novos eventos e bosses nas cartas de valor alto
 
 ## ▶️ Como rodar
 
