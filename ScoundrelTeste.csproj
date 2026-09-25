@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C617706-51E1-463E-AEC1-4BF454ADF450}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ScoundrelTeste</RootNamespace>
+    <AssemblyName>ScoundrelTeste</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-back1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-back2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-back3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-back4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\somFundo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-clubs-7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-diamonds-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-hearts-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\card-spades-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jump-climb-or-damage-sound-f-95942.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mischievous-laugh-398655.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sword-unsheathing-393851.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window-break-sfx-333914.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quick-pour-86306.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\you-win-sequence-2-183949.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8-bit-game-over-sound-effect-331435.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1329171.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
