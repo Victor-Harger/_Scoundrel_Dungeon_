@@ -4,7 +4,7 @@ Um jogo de cartas roguelike inspirado no clássico **Scoundrel**, reimaginado co
 
 Desenvolvido em **C# com Windows Forms**.
 
-## 💡 Sobre o projeto
+##  Sobre o projeto
 
 Neste projeto, me desafiei a criar um dos meus primeiros jogos utilizando C# e Windows Forms. Na época, meu principal objetivo era aprender na prática e conseguir levar o projeto até o fim, então optei por manter a implementação simples, sem me preocupar excessivamente com arquitetura, padrões de projeto ou com todas as boas práticas que hoje eu considero importantes.
 
@@ -14,14 +14,14 @@ Agora, no 3º semestre, tenho uma compreensão muito maior de conceitos como Pro
 
 Ainda assim, a intenção não é transformar o Scoundrel Dungeon em um projeto enorme. Quero mantê-lo relativamente pequeno, como um registro da minha evolução e uma lembrança de uma das primeiras etapas da minha trajetória como desenvolvedor.
 
-## 📸 Screenshots
+##  Screenshots
 
 <p align="center">
   <img src="screenshots/Menu.png" width="45%" alt="Tela principal" />
   <img src="screenshots/Sistema_equipamentos.png" width="45%" alt="Sistema de equipamentos" />
 </p>
 
-## 🎥 Vídeo
+##  Vídeo
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=bKyTffIF03A">
@@ -29,7 +29,7 @@ Ainda assim, a intenção não é transformar o Scoundrel Dungeon em um projeto 
   </a>
 </p>
 
-## 🎮 Como jogar
+##  Como jogar
 
 - A cada sala, 4 cartas são reveladas na mesa
 - **♦ Ouros** — equipa uma arma (a arma anterior é descartada)
@@ -39,7 +39,7 @@ Ainda assim, a intenção não é transformar o Scoundrel Dungeon em um projeto 
 - **Fugir** só é permitido se você ainda não escolheu nenhuma carta na sala, e não pode fugir duas rodadas seguidas
 - O objetivo é esvaziar o baralho e a mesa sem que sua vida chegue a zero
 
-## ⚔️ Mecânicas principais
+##  Mecânicas principais
 
 - Sistema de arma com durabilidade baseada em regra original do Scoundrel (só pode enfrentar monstros de valor decrescente)
 - Histórico visual dos últimos monstros derrotados pela arma atual
@@ -47,13 +47,13 @@ Ainda assim, a intenção não é transformar o Scoundrel Dungeon em um projeto 
 - Efeitos visuais (piscar de vida) e sonoros para dano, cura, fuga e quebra de equipamento
 - Sistema de pontuação (score) por carta resolvida
 
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - C#
 - Windows Forms
 - System.Media (efeitos sonoros)
 
-## 🚧 Roadmap
+##  Roadmap
 
 - [ ] Refatorar arquitetura para Orientação a Objetos (separar regras de jogo da interface)
 - [ ] Substituir imagens placeholder por pixel art
@@ -63,7 +63,7 @@ Ainda assim, a intenção não é transformar o Scoundrel Dungeon em um projeto 
 - [ ] Novos tipos de sala
 - [ ] Novos Bosses como cartas de valor alto
 
-## ▶️ Como rodar
+##  Como rodar
 
 1. Clone o repositório:
 ```bash
