@@ -1,4 +1,4 @@
-# 🃏 Scoundrel Dungeon
+# 🃏 Scoundrel Dungeon -- Versão Alpha
 
 Um jogo de cartas roguelike inspirado no clássico **Scoundrel**, reimaginado como uma exploração de dungeon. Enfrente monstros, gerencie sua vida, encontre armas e poções, e tente sobreviver até o fim do baralho.
 
